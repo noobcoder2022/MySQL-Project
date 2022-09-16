@@ -1,4 +1,4 @@
--- SQL QWERY 1:-    REPORT FROM CUSTOMER WHERE ORDER STATUS = SHIPPED(CUSTOMET ID,ORDER STATUS,DELIVERY DATE)
+-- SQL QWERY 1:-    REPORT FROM CUSTOMER WHERE ORDER STATUS = SHIPPED(CUSTOMERID,ORDER STATUS,DELIVERY DATE)
 select c_id,order_status,delivery_date from customer_order_status where order_status="Shipped";
 -- SQL QWERY 2:-     REPORT WHERE EACH CUSTOMER CAN TRACK THERE ORDER DETAILS AND PRICE DETAILS
 select c.c_id,c.c_name,p.p_id,p.order_id,co.order_status from 
